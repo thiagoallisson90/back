@@ -10,7 +10,7 @@ app.use(json());
 app.use(cors());
 dotenv.config();
 
-const port = process.env.PORT || 3100;
+const port = process.env.PORT || 3124;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
